@@ -1,0 +1,79 @@
+body {
+  width:900px;
+  margin:auto;
+  background:rgb(244, 248, 251);
+  font-family:serif;
+  overflow-y:scroll;
+}
+
+header {
+ margin:10px;
+}
+
+header .active {
+  text-decoration:underline;
+}
+
+header a {
+  color:black;
+  text-decoration:none;
+} 
+header a:hover {
+  text-decoration:underline;
+}
+
+
+h1 {
+  font-weight:normal;
+}
+
+
+
+.card {
+  background-size:100%;
+  background-repeat:no-repeat;
+  background-color:white;
+  padding:10px;
+  
+  border-radius: 10px;
+  box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+  transition: all .4s;
+  margin:10px;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 15px rgba(39,44,49,.06), 1px 1px 8px rgba(39,44,49,.03);
+}
+
+.title {
+  padding-top:205px;
+}
+
+
+.card.bike {
+  background-image: url("./bike-shops.png");
+}
+.card.weather {
+  background-image: url("./weather.png");
+}
+.card.playlists {
+  background-image: url("./playlists.png");
+}
+.card.pastebin {
+  background-image: url("./pastebin.png");
+}
+
+.title {
+  font-weight:bold;
+}
+
+
+.row {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.row > div {
+    width: 33.3333%;
+}
+
